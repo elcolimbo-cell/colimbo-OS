@@ -5,33 +5,106 @@
   <title>Colimbo OS</title>
   <style>
     body {
-      background-color: #000;
-      color: #00ffcc;
+      margin: 0;
       font-family: monospace;
+      color: #00ffcc;
+      background: url('fondo.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 40px 20px;
       text-align: center;
-      padding: 50px;
     }
-    h1 {
+    header h1 {
       font-size: 3em;
+      margin: 0;
     }
-    p {
-      font-size: 1.5em;
+    nav {
+      background-color: rgba(0, 0, 0, 0.9);
+      text-align: center;
+      padding: 10px;
     }
-    a {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 10px 20px;
-      background-color: #00ffcc;
-      color: #000;
+    nav a {
+      color: #00ffcc;
       text-decoration: none;
+      margin: 0 15px;
       font-weight: bold;
-      border-radius: 5px;
+    }
+    section {
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #00ffcc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <h1>Colimbo OS</h1>
-  <p>Sistema operativo Linux basado en Debian 13 desarrollado para hackers.</p>
-  <a href="#">Descargar ISO</a>
+
+  <header>
+    <h1>COLIMBO OS</h1>
+    <p>Sistema operativo Linux basado en Debian 13 desarrollado para hackers</p>
+  </header>
+
+  <nav>
+    <a href="#descargas">Descargas</a>
+    <a href="#documentacion">Documentación</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#comunidad">Comunidad</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="descargas">
+    <h2>📥 Descargas</h2>
+    <p>Última versión estable: <strong>Colimbo OS 1.0</strong></p>
+    <p><a href="#">Descargar ISO</a></p>
+  </section>
+
+  <section id="documentacion">
+    <h2>📚 Documentación</h2>
+    <ul>
+      <li>Guía de instalación paso a paso</li>
+      <li>Requisitos mínimos</li>
+      <li>Comandos básicos</li>
+      <li>Preguntas frecuentes</li>
+    </ul>
+  </section>
+
+  <section id="caracteristicas">
+    <h2>🧠 Características</h2>
+    <ul>
+      <li>Seguridad avanzada</li>
+      <li>Estilo hacker personalizable</li>
+      <li>Herramientas preinstaladas: nmap, metasploit, etc.</li>
+      <li>Ligero y rápido</li>
+    </ul>
+  </section>
+
+  <section id="comunidad">
+    <h2>🧑‍💻 Comunidad</h2>
+    <p>Únete al proyecto en <a href="https://github.com/colimbo-OS">GitHub</a></p>
+    <p>Participa en el foro y Discord (próximamente)</p>
+  </section>
+
+  <section id="contacto">
+    <h2>📞 Contacto</h2>
+    <p>Correo: contacto@colimbo-os.org</p>
+    <p>Redes sociales: Twitter, Mastodon, GitHub</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Colimbo OS. Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
+
