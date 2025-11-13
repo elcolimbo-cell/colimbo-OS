@@ -8,7 +8,10 @@
       margin: 0;
       font-family: monospace;
       color: #00ffcc;
-      background: url('fondo.png') no-repeat center center fixed;
+      background-image: url('./fondo.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
       background-size: cover;
     }
     header {
@@ -46,6 +49,16 @@
       background-color: rgba(0, 0, 0, 0.8);
       font-size: 0.9em;
     }
+    a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00ffcc;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
@@ -53,6 +66,7 @@
   <header>
     <h1>COLIMBO OS</h1>
     <p>Sistema operativo Linux basado en Debian 13 desarrollado para hackers</p>
+    <a href="#" class="button">Descargar ISO</a>
   </header>
 
   <nav>
@@ -107,4 +121,3 @@
 
 </body>
 </html>
-
